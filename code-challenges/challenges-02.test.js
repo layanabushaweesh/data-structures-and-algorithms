@@ -8,13 +8,14 @@ Write a function named raisedToTheThird that takes in an array of numbers and re
 
 ------------------------------------------------------------------------------------------------ */
 const raisedToTheThird = (arr) => {
-  // Solution code here...
-  const thirdPowerArr = [];
+  const NEW$ARRAY =[];
   arr.forEach(element => {
-    thirdPowerArr.push(Math.pow(element, 3));
+    NEW$ARRAY.push(Math.pow(element, 3));
   });
-  return thirdPowerArr;
+  return NEW$ARRAY;
+
 };
+//The Math.pow() function returns the base to the exponent power, that is, baseexponent.
 
 
 /* ------------------------------------------------------------------------------------------------
@@ -28,6 +29,8 @@ const appendTheEnd = (str) => {
   // Solution code here...
   const newString = `${str} The end.`;
   return newString;
+  
+
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -43,9 +46,9 @@ appendFirstToLast(a);
 console.log(a) prints [1, 2, 3, 1]
 ------------------------------------------------------------------------------------------------ */
 const appendFirstToLast = (arr) => {
-  // Solution code here...
   arr.push(arr[0]);
 };
+
 
 
 
